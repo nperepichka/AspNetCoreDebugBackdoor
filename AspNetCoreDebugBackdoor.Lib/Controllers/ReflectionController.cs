@@ -6,6 +6,7 @@ namespace AspNetCoreDebugBackdoor.Lib.Controllers;
 
 [ApiController]
 [Route("api/debug-backdoor/reflection")]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class ReflectionController : ControllerBase
 {
     private readonly IReflectionService _reflectionService;

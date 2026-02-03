@@ -7,6 +7,7 @@ namespace AspNetCoreDebugBackdoor.Lib.Controllers;
 
 [ApiController]
 [Route("api/debug-backdoor/script")]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class ScriptController : ControllerBase
 {
     private readonly IScriptService _scriptService;

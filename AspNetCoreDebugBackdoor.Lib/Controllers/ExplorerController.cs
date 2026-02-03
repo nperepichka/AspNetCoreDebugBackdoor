@@ -6,6 +6,7 @@ namespace AspNetCoreDebugBackdoor.Lib.Controllers;
 
 [ApiController]
 [Route("api/debug-backdoor/[controller]")]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class ExplorerController(IFileSystemService fileSystemService) : ControllerBase
 {
     private readonly IFileSystemService _fileSystemService = fileSystemService;

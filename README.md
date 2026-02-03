@@ -37,6 +37,23 @@
   - 💾 **Persistence**: Remembers your active tab and navigation state across reloads.
   - ⚡ **High Performance**: Optimized rendering and tab-switching for large datasets.
 
+- **✏️ TODO**
+  - Publish to **NuGet**
+
+## 🖼️ Images
+
+### File Manager
+![File Manager](Images/Files.png)
+
+### Reflection Inspector
+![Reflection Inspector](Images/Reflection.png)
+
+### Script Console
+![Script Console](Images/ScriptConsole.png)
+
+### Terminal Console
+![Terminal Console](Images/Terminal.png)
+
 ## 🚀 Quick Start
 
 ### 1. Installation

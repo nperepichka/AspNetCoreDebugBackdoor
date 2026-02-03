@@ -6,6 +6,7 @@ namespace AspNetCoreDebugBackdoor.Lib.Controllers;
 
 [ApiController]
 [Route("api/debug-backdoor/terminal")]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class TerminalController : ControllerBase
 {
     private readonly ITerminalService _terminalService;
