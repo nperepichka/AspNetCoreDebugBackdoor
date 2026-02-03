@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AspNetCoreDebugBackdoor.Lib/AspNetCoreDebugBackdoor.Lib.csproj" />
+  <Project Path="AspNetCoreDebugBackdoor.WebDemo/AspNetCoreDebugBackdoor.WebDemo.csproj" />
+</Solution>
